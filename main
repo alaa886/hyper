@@ -26,7 +26,7 @@ double total = laptopPrice + mobilePrice + headphonesPrice;
             System.out.print("Enter simulated payment result (approved/declined): ");
             String result = input.nextLine();
             if (result.equalsIgnoreCase("approved")) {
-                System.out.printf("Payment successful: OMR %.3f%n", totalBill);
+                System.out.printf("Payment Discaount successful: OMR %.3f%n", totalBill);
                 System.out.println("Thank you for your purchase!");
             } else {
                 System.out.println("Payment unsuccessful. Please try again.");
